@@ -1,2 +1,9 @@
 # Yad2PostBouncer
- Personal use. created to keep my post bounced every 4 hours
+Personal usage, you can take the idea from it in order to develop the bot to work with all categories and more posts.
+I've made it in order to bounce my one specific ad automatically.
+
+HOW TO USE:
+'python main.py email password'
+In LINUX, launch the command in crontab.
+In WINDOWNS, Put the file under Task Scheduler.
+* Reminder: Ads can bounce once in every 4 hours *
