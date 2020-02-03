@@ -47,7 +47,7 @@ def main():
     args = get_arguments()
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("--start-maximized")
-    chrome_options.add_argument("--no-startup-windcow")
+    chrome_options.add_argument("headless")
     browser = webdriver.Chrome('./chromedriver.exe', options=chrome_options)
     browser.get('https://my.yad2.co.il/login.php')
     if not login(browser, args):
